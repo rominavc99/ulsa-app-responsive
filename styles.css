@@ -45,27 +45,30 @@ body{
 
 .container{
     width: 90%;
-    height: 300px;
+   min-height: 100px;
+   overflow: hidden;
     background-color: darkred;
     margin: 0 auto;
     
 }
-.section1{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
+
 .section{
 
     color: white;
+    background-color: black;
     float: left;
-    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
     margin-left: 10px;
     margin-right: 10px;
     font-size: 20px;
    
 }
 
+.section:hover{
+    color: black;
+    background-color:white;
+}
 
 
 
